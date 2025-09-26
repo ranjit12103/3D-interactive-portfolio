@@ -1,12 +1,13 @@
 import React from 'react'
-import { words } from '../constants/index'
+import { words } from '../assets/index'
+import '../index.css'
 
 const Hero = () => {
   return (
     <>
         <section id='hero' className='relative overflow-hidden'>
         <div className="absolute top-0 left-0 z-10">
-          <img src="/src/assets/public/images/bg.png" alt="background" />
+          <img src="/public/images/bg.png" alt="background" />
         </div>
         <div className='hero-layout'>
           {/* LEFT: HERO CONYENT */}
@@ -29,6 +30,9 @@ const Hero = () => {
                 </h1>
                 <h1>into Real Projects</h1>
                 <h1>that Deliver result</h1>
+                <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
+                  Hi, I'm Ranjit, a developer based in Pune with passion for code.
+                </p>
               </div>
           </header>
           {/* RIGHT: 3D MODEL */}
