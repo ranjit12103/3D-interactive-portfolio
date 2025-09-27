@@ -18,21 +18,21 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/public/images/ideas.svg" },
-  { text: "Concept", imgPath: "/public/images/concepts.svg" },
-  { text: "Designs", imgPath: "/public/images/designs.svg" },
-  { text: "Code", imgPath: "/public/images/code.svg" },
-  { text: "Ideas", imgPath: "/public/images/ideas.svg" },
-  { text: "Concept", imgPath: "/public/images/concepts.svg" },
-  { text: "Designs", imgPath: "/public/images/designs.svg" },
-  { text: "Code", imgPath: "/public/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 1, suffix: "+", label: "Years of Experience" },
+  { value: 5, suffix: "+", label: "Satisfied Clients" },
+  { value: 10, suffix: "+", label: "Completed Projects" },
+  { value: 91, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
