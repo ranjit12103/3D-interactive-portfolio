@@ -17,6 +17,13 @@ const HeroExperience = () => {
       {/* deep blue ambient */}
       <ambientLight intensity={0.2} color="#1a1a40" />
       {/* Configure OrbitControls to disable panning and control zoom based on device type */}
+      
+      <directionalLight
+        position={[10, 10, 5]}
+        intensity={1}
+        castShadow
+      />
+
       <OrbitControls
         enablePan={false} // Prevents panning of the scene
         enableZoom={!isTablet} // Disables zoom on tablets
