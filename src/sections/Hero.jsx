@@ -50,7 +50,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Ranjit, a developer based in Pune with a passion for
+              Hi, I’m Ranjit, a Python Developer based in Pune with a passion for
               code.
             </p>
 
