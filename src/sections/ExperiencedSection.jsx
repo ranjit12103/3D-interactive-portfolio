@@ -142,7 +142,6 @@ const ExperiencedSection = () => {
                         </ul>
                       </div>
                     </div>
-                    
                   </div>
                 </div>
               </div>
