@@ -5,6 +5,7 @@ import NavBar from './components/Navbar'
 import LogoShowcase from './sections/LogoShowcase'
 import FeatureCards from './sections/FeatureCards'
 import ExperiencedSection from './sections/ExperiencedSection'
+import Projects from './sections/Projects'
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       <LogoShowcase />
       <FeatureCards />
       <ExperiencedSection />
+      <Projects />
     </>
   )
 }

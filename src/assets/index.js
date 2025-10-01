@@ -314,27 +314,27 @@ const socialImgs = [
       border: '0.2px solid #17293E',
       boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
-    spotlight: '/public_com/assets/spotlight2.png',
+    spotlight: '/assets/spotlight2.png',
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/public_com/assets/react.svg',
+        path: '/assets/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/public_com/assets/tailwindcss.png',
+        path: '/assets/tailwindcss.png',
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/public_com/assets/typescript.png',
+        path: '/assets/typescript.png',
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/public_com/assets/framer.png',
+        path: '/assets/framer.png',
       },
     ],
   },
@@ -344,8 +344,8 @@ const socialImgs = [
     subdesc:
       'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/public_com/textures/project/project3.mp4',
-    logo: '/public_com/assets/project-logo3.png',
+    texture: '/textures/project/project3.mp4',
+    logo: '/assets/project-logo3.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -353,27 +353,27 @@ const socialImgs = [
       border: '0.2px solid rgba(208, 213, 221, 1)',
       boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
-    spotlight: '/public_com/assets/spotlight3.png',
+    spotlight: '/assets/spotlight3.png',
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/public_com/assets/react.svg',
+        path: '/assets/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/public_com/assets/tailwindcss.png',
+        path: '/assets/tailwindcss.png',
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/public_com/assets/typescript.png',
+        path: '/assets/typescript.png',
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/public_com/assets/framer.png',
+        path: '/assets/framer.png',
       },
     ],
   },
@@ -383,34 +383,34 @@ const socialImgs = [
     subdesc:
       'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
     href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/public_com/textures/project/project4.mp4',
-    logo: '/public_com/assets/project-logo4.png',
+    texture: '/textures/project/project4.mp4',
+    logo: '/assets/project-logo4.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
       boxShadow: '0px 0px 60px 0px #2F67B64D',
     },
-    spotlight: '/public_com/assets/spotlight4.png',
+    spotlight: '/assets/spotlight4.png',
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/public_com/assets/react.svg',
+        path: '/assets/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/public_com/assets/tailwindcss.png',
+        path: '/assets/tailwindcss.png',
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/public_com/assets/typescript.png',
+        path: '/assets/typescript.png',
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/public_com/assets/framer.png',
+        path: '/assets/framer.png',
       },
     ],
   },
@@ -420,34 +420,34 @@ const socialImgs = [
     subdesc:
       'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
     href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/public_com/textures/project/project5.mp4',
-    logo: '/public_com/assets/project-logo5.png',
+    texture: '/textures/project/project5.mp4',
+    logo: '/assets/project-logo5.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
       boxShadow: '0px 0px 60px 0px #635BFF4D',
     },
-    spotlight: '/public_com/assets/spotlight5.png',
+    spotlight: '/assets/spotlight5.png',
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/public_com/assets/react.svg',
+        path: '/assets/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/public_com/assets/tailwindcss.png',
+        path: '/assets/tailwindcss.png',
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/public_com/assets/typescript.png',
+        path: '/assets/typescript.png',
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/public_com/assets/framer.png',
+        path: '/assets/framer.png',
       },
     ],
   },

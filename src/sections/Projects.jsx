@@ -7,6 +7,7 @@ import { Center, OrbitControls } from '@react-three/drei';
 import { myProjects } from '../assets/index.js';
 import CanvasLoader from '../components/Loading.jsx';
 import DemoComputer from '../components/DemoComputer.jsx';
+import TitleHeader from '../components/TitleHeader.jsx';
 
 const projectCount = myProjects.length;
 
@@ -30,9 +31,14 @@ const Projects = () => {
   const currentProject = myProjects[selectedProjectIndex];
 
   return (
-    <section className="c-space my-20">
-      <p className="head-text">My Selected Work</p>
-
+        <section
+            className="flex-center md:mt-40 mt-20 section-padding xl:px-0"
+         >
+         <div className="w-full h-full md:px-20 px-5">
+        <TitleHeader
+          title="My Selected Projects"
+          sub="🤖 Featured Projects"
+        />
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
         <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
           <div className="absolute top-0 right-0">
@@ -94,6 +100,7 @@ const Projects = () => {
             <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
           </Canvas>
         </div>
+      </div>
       </div>
     </section>
   );
