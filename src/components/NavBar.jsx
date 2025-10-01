@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import './HeroModels/Navbar.css'
+import '../assets/Navbar.css'
 import { navLinks } from "../assets/index";
 
 const NavBar = () => {
