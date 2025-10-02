@@ -8,12 +8,12 @@ const navLinks = [
     link: "#experience",
   },
   {
-    name: "Skills",
-    link: "#skills",
-  },
-  {
     name: "Projects",
     link: "#projects",
+  },
+  {
+    name: "Skills",
+    link: "#skills",
   },
   {
     name: "Testimonials",
@@ -138,7 +138,7 @@ const techStackIcons = [
   {
     name: "Cloud Developer",
     modelPath: "/models/aws_logo.glb",
-    scale: 0.4,
+    scale: 0.41,
     rotation: [0, 0, 0],
   },
   {
