@@ -2,29 +2,29 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Button from "../components/Button";
 import { words } from "../assets/index";
-import HeroExperience from "../components/HeroModels/HeroExperience";
+import HomeExperience from "../components/HomeModels/HeroExperience";
 import AnimatedCounter from "../components/AnimatedCounter";
 
-const Hero = () => {
+const Home = () => {
   useGSAP(() => {
     gsap.fromTo(
-      ".hero-text h1",
+      ".home-text h1",
       { y: 50, opacity: 0 },
       { y: 0, opacity: 1, stagger: 0.2, duration: 1.3, ease: "power2.inOut" }
     );
   });
 
   return (
-    <section id="hero" className="relative overflow-hidden">
+    <section id="home" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="" />
       </div>
 
-      <div className="hero-layout">
-        {/* LEFT: Hero Content */}
+      <div className="home-layout">
+        {/* LEFT: Home Content */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
-            <div className="hero-text">
+            <div className="home-text">
               <h1>
                 Shaping
                 <span className="slide">
@@ -64,8 +64,8 @@ const Hero = () => {
 
         {/* RIGHT: 3D Model or Visual */}
         <figure>
-          <div className="hero-3d-layout">
-            <HeroExperience />
+          <div className="home-3d-layout">
+            <HomeExperience />
           </div>
         </figure>
       </div>
@@ -74,4 +74,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
