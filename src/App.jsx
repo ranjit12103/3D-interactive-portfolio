@@ -7,6 +7,7 @@ import FeatureCards from './sections/FeatureCards'
 import ExperiencedSection from './sections/ExperiencedSection'
 import Projects from './sections/Projects'
 import TechStack from './sections/TechStack'
+import Testimonials from './sections/Testimonials'
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
       <ExperiencedSection />
       <Projects />
       <TechStack />
+      <Testimonials />
     </>
   )
 }
